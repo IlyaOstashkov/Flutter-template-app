@@ -1,7 +1,7 @@
-# Nitro Lxp Mobile
+# Flutter template app
 
 [![Flutter](https://badgen.net/badge/flutter/2.8.1/blue)](https://flutter.dev/docs/development/tools/sdk/releases)
-[![Flutter](https://badgen.net/badge/github/releases/blue)](https://github.com/severgroup-tt/nitro-lxp-mobile/releases)
+[![Flutter](https://badgen.net/badge/github/releases/blue)](https://flutter.dev)
 
 A mobile client app for TalentTech.Learning box solution
 
