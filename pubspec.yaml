@@ -1,0 +1,32 @@
+name: nitro_lxp_mobile
+description: LXP Mobile box solution
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0 # localization
+  nitro_analysis_options:
+    path: packages/nitro_analysis_options
+  nitro_services:
+    path: packages/nitro_services
+
+dev_dependencies:
+  bloc_test: ^9.0.2
+  build_runner: ^2.1.7
+  dart_dot_reporter: ^1.0.4
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.2.0
+
+flutter_intl:
+  enabled: true

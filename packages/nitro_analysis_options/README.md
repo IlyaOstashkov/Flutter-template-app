@@ -1,0 +1,1 @@
+Common analysis options for all packages

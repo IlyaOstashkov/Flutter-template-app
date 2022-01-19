@@ -1,0 +1,18 @@
+name: nitro_lxp_mobile
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: subosito/flutter-action@v1.5.3
+
+      - name: Analyze
+        run: flutter analyze
+
+      - name: Test all
+        run: ./scripts/test_all.sh
